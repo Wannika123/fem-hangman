@@ -5,7 +5,7 @@ import Game from '@/component/game/Game'
 import { SoundProvider } from '@/context/SoundContext'
 
 type GamePageProps = {
-    params: { category: string}
+    params: Promise<{ category: string}>
 }
 
 export default async function GamePage({ params }: GamePageProps) {

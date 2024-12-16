@@ -6,7 +6,7 @@ export default async function GameLayout({
     params
 }: Readonly<{
     children: React.ReactNode;
-    params: { category: string }
+    params: Promise<{ category: string }>
 }>) {
     const currParams = await params
     const category = currParams.category  
