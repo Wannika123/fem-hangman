@@ -22,7 +22,7 @@ export default function HowToPlay() {
                         <h3 className={`${styles['rule-header']} ${styles['not-mobile']}`}>Guess letters</h3>
                         <p>
                             Take turns guessing letters. The computer fills in the 
-                            relevant blank spaces if your guess is correct. If it's 
+                            relevant blank spaces if your guess is correct. If it&apos;s 
                             wrong, you lose some health, which empties after eight 
                             incorrect guesses.
                         </p>

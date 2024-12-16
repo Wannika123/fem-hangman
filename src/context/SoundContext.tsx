@@ -16,7 +16,7 @@ const B = 496.128;
 const MINOR_SCALE = [B, Ab, G, F, Eb, D, C];
 
 const SoundContext = createContext({
-    playScale: (index: number) => {},
+    playScale: (index: number) => { console.log(index) },
     winSound: () => {},
     loseSound: () => {}
 })
