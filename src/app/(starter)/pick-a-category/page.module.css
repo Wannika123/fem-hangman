@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+}
+
+.links-container {
+    display: grid;
+    gap: 16px;
+    padding-top: 100px;
+}
+
+.links-container a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--blue);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 20px;
+    box-shadow: var(--blue-shadow);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.links-container a:hover {
+    opacity: 0.9;
+}
+
+@media (min-width: 32rem) {
+    .links-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        padding-top: 114px;
+    }
+    .links-container a {
+        border-radius: 40px;
+        font-size: 3rem;
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+}
+
+@media (min-width: 60rem) {
+    .links-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 32px 50px;
+        padding-top: 15vh;
+    }
+    .links-container a {
+        padding-top: 66px;
+        padding-bottom: 66px;
+    }
+}

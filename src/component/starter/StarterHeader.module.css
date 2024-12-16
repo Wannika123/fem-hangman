@@ -1,0 +1,28 @@
+.header {
+    padding: 0.5625rem 0;
+}
+
+.header img {
+    width: 18px;
+    height: auto;
+}
+
+@media (min-width: 32rem) {
+    .header {
+        padding: 1.875rem 0;
+    }
+    .header img {
+        width: 28px;
+        height: auto;
+    }
+}
+
+@media (min-width: 60rem) {
+    .header {
+        padding: 2.125rem 0;
+    }
+    .header img {
+        width: 41px;
+        height: auto;
+    }
+}

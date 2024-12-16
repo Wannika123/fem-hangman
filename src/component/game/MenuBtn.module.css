@@ -1,0 +1,30 @@
+.button {
+    margin: 4px 0;
+    margin-right: 16px;
+}
+
+.button > img {
+    width: 16px;
+    height: auto;
+}
+
+@media (min-width: 32rem) {
+    .button {
+        margin-right: 32px;
+    }
+    .button > img {
+        width: 26px;
+        height: auto;
+    }
+}
+
+@media (min-width: 60rem) {
+    .button {
+        margin: 6px 0;
+        margin-right: 57px;
+    }
+    .button > img {
+        width: 38px;
+        height: auto;
+    }
+}

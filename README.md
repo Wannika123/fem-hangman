@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Hangman game solution
 
-## Getting Started
+This is a solution to the [Hangman game challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/hangman-game-rsQiSVLGWn). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Users should be able to:
 
-## Learn More
+- Learn how to play Hangman from the main menu.
+- Start a game and choose a category.
+- Play Hangman with a random word selected from that category.
+- See their current health decrease based on incorrect letter guesses.
+- Win the game if they complete the whole word.
+- Lose the game if they make eight wrong guesses.
+- Pause the game and choose to continue, pick a new category, or quit.
+- View the optimal layout for the interface depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
+- Navigate the entire game only using their keyboard.
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screen Shot 2567-12-16 at 17 52 14](https://github.com/user-attachments/assets/b72b5438-3d31-41d4-81c0-a875f0ba47dc)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Screen Shot 2567-12-16 at 17 55 47](https://github.com/user-attachments/assets/5a9418a5-d4ca-4fc0-b100-745ee98624d2)
 
-## Deploy on Vercel
+![Screen Shot 2567-12-16 at 17 53 54](https://github.com/user-attachments/assets/532dba4f-eb29-4465-926d-9fa43442fdf3)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- TypeScript
+- Web Audio API
+
+### What I learned
+
+- I learned that there can be more than one box-shadow value (seperated by comma). 
+- I tried initialize AudioContext() with custom hook, and that doesn't work. Using context is a better way, because the AudioContext() will be initialize only once (if I understand correctly). 
+
+## Author
+
+- Frontend Mentor - [@Wannika123](https://www.frontendmentor.io/profile/Wannika123)
