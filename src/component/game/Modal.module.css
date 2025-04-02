@@ -6,7 +6,7 @@
     background-color: transparent;
     width: 90%;
     max-width: 37rem;
-    padding: 50px 0;   
+    padding: 50px 0;
 }
 
 .dialog::backdrop {
@@ -21,7 +21,7 @@
     position: relative;
     border-radius: 48px;
     background: var(--blue-gradient);
-    box-shadow: var(--blue-gradient-shadow);  
+    box-shadow: var(--blue-gradient-shadow);
     padding-top: 104px;
     padding-bottom: 87px;
 }
@@ -32,7 +32,7 @@
     gap: 2.125rem;
 }
 
-.btns-container button, 
+.btns-container button,
 .btns-container a {
     width: max-content;
     border: none;
